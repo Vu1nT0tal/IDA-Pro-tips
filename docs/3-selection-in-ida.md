@@ -34,7 +34,7 @@
 
 ### 例子
 
-一些使用选择的操作：
+一些需要使用选择的操作：
 
 - “File  -> Produce file”子菜单中的命令（创建 .ASM、.LST、HTML 或 .C 文件）
 - Edit->Export (Shift–E)
