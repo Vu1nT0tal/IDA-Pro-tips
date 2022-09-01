@@ -13,7 +13,7 @@
 
 - 取消定义一系列指令；
 - 当 IDA 不能自动将范围内未定义的字节转换为字符串时，手动将其转换为字符串。（例如，字符串不是以 NULL 结尾的）；
-- 从中间有一些数据的一系列指令种创建一个函数（例如，当你得到名为“函数在指定地址有未定义的指令/数据”的报错时）；
+- 从中间有一些数据的一系列指令种创建一个函数（例如，当你得到“The function has undefined instruction/data at the specified address”报错时）；
 - 仅导出选定函数反汇编或反编译而不是导出整个文件的反汇编或反编译；
 - 将选定的反汇编片段复制到剪贴板。
 
@@ -36,10 +36,10 @@
 
 一些需要使用选择的操作：
 
-- “File  -> Produce file”子菜单中的命令（创建 .ASM、.LST、HTML 或 .C 文件）
-- Edit->Export (Shift–E)
+- “File->Produce file”子菜单中的命令（创建 .ASM、.LST、HTML 或 .C 文件）
+- “Edit->Export”（`Shift`–`E`）
 
-![example][1]
+![export_data][1]
 
 一些需要选择的更复杂的操作将在即将发布的文章中讨论。敬请期待，下周五见！
 
@@ -49,6 +49,6 @@ via: https://hex-rays.com/blog/igor-tip-of-the-week-03-selection-in-ida/
 
 作者：Igor Skochinsky
 译者：[cease2e](https://github.com/cease2e)
-校对：
+校对：[firmianay](https://github.com/firmianay)
 
 [1]: https://www.hex-rays.com/wp-content/uploads/2020/08/export_data.png
