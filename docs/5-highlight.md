@@ -12,19 +12,19 @@
 - 使用跳转命令或单击导航带（除非光标恰好落在新位置的单词上）；
 - 高亮被 LockHighlight 操作锁定（它是少数几个操作之一，默认情况下只能作为工具栏按钮使用）。
 
-[LockHighlight_action][1]
+![LockHighlight_action][1]
 
 ### 寄存器高亮
 
 对于某些处理器，以特殊方式处理高亮显示的寄存器：不仅高亮显示相同的寄存器，还高亮显示包含它或属于它的一部分的任何寄存器。例如，在 x86_x64 上，如果选择 ax，则 al、ah、eax 和 rax 也会高亮显示。
 
-[register_highlight][2]
+![register_highlight][2]
 
 ### 手动高亮
 
 除了通过点击单词/数字自动高亮显示外，您还可以使用鼠标或键盘选择任意子字符串，它将用于高亮显示屏幕上的所有匹配序列。对于手动高亮显示，只有完全匹配的子字符串才会被高亮——对寄存器没有做特殊处理。
 
-[manual_highlight][3]
+![manual_highlight][3]
 
 ### 高亮导航
 
@@ -38,7 +38,7 @@ via: https://hex-rays.com/blog/igor-tip-of-the-week-05-highlight/
 
 作者：Igor Skochinsky
 译者：[cease2e](https://github.com/cease2e)
-校对：[]()
+校对：[firmianay](https://github.com/firmianay)
 
 [1]: https://www.hex-rays.com/wp-content/uploads/2020/09/highlight_lock.png
 [2]: https://www.hex-rays.com/wp-content/uploads/2020/09/highlight_reg.png
