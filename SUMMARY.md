@@ -7,3 +7,4 @@ GitHub 地址：<https://github.com/VulnTotal-Team/IDA-Pro-tips>
 - [2、IDA 用户界面动作及如何找到它们](docs/2-ida-ui-actions-and-where-to-find-them.md)
 - [3、IDA 中的选择操作](docs/3-selection-in-ida.md)
 - [4、更多的选择操作](docs/4-more-selection.md)
+- [5、高亮操作](docs/5-highlight.md)
