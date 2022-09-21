@@ -8,3 +8,4 @@ GitHub 地址：<https://github.com/VulnTotal-Team/IDA-Pro-tips>
 - [3、IDA 中的选择操作](docs/3-selection-in-ida.md)
 - [4、更多的选择操作](docs/4-more-selection.md)
 - [5、高亮操作](docs/5-highlight.md)
+- [6、IDA 发行说明](docs/6-ida-release-notes.md)
