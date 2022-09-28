@@ -3,7 +3,7 @@
 7、IDA 命令行选项手册
 =======
 
-大多数 IDA 用户可能将 IDA 作为独立应用程序运行，并使用 UI 来配置各种选项。但是，可以将命令行选项传递给 IDA 以对某些选项进行自动化配置。[全部选项](https://hex-rays.com/products/ida/support/idadoc/417.shtml)很长，所以我们将介绍更常见和有用的选项。
+大多数 IDA 用户可能将 IDA 作为独立应用程序运行，并使用 UI 来配置各种选项。但是，可以将命令行选项传递给 IDA 以对某些选项进行自动化配置。[全部选项][1]很长，所以我们将介绍更常见和有用的选项。
 
 > 在下面的示例中，可以将 `ida` 替换为 `ida64`（用于 64 位文件）或 `idat` (`idat64`) 用于控制台（文本模式）UI。
 
@@ -28,10 +28,10 @@
 
 对于它们中的每一个，对应的 `-T` 选项分别是：
 
-- TMicrosoft
-- TPortable
-- TMS
-- TBinary
+- `TMicrosoft`
+- `TPortable`
+- `TMS`
+- `TBinary`
 
 当前缀包含空格时，需要使用引号。例如，从一个 fat Mach-O file 中加载第一个切片：
 
@@ -55,7 +55,7 @@
 
 这将使用自主或批处理模式加载文件，其中 IDA 不会显示任何对话框，但在所有情况下都采用默认选项。
 
-> 在这种模式下，加载完成后**不会**显示任何交互式对话框（例如，甚至“重命名”或“添加评论”）。要恢复交互性，请在 IDA 窗口底部的 IDC 或 Python 控制台中执行 `batch(0)` 语句。
+> 在这种模式下，加载完成后**不会**显示任何交互式对话框（例如，甚至“Rename”或“Add comment”）。要恢复交互性，请在 IDA 窗口底部的 IDC 或 Python 控制台中执行 `batch(0)` 语句。
 
 ### 批处理反汇编
 
@@ -71,7 +71,7 @@ IDA 将使用所有默认选项加载文件，等待自动分析结束，将反�
 
 `ida -p<processor> -B<base> <filename>`
 
-`<processor>` 是 IDA 支持的[处理器类型](https://hex-rays.com/products/ida/support/idadoc/618.shtml)之一。一些处理器还支持在冒号后给出更具体的选项。
+`<processor>` 是 IDA 支持的[处理器类型][2]之一。一些处理器还支持在冒号后给出更具体的选项。
 
 `<base>` 是段中的十六进制加载基数（16 字节数量）。实际上，这意味着您应该从完整地址中删除最后一个零。
 
@@ -95,4 +95,7 @@ via: https://hex-rays.com/blog/igor-tip-of-the-week-07-ida-command-line-options-
 
 作者：Igor Skochinsky
 译者：[cease2e](https://github.com/cease2e)
-校对：[]()
+校对：[firmianay](https://github.com/firmianay)
+
+[1]: https://hex-rays.com/products/ida/support/idadoc/417.shtml
+[2]: https://hex-rays.com/products/ida/support/idadoc/618.shtml
